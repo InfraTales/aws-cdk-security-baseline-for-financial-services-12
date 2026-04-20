@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "title": "Pr12510",
+  "identity": {
+    "repo_key": "cdk-ts/Pr12510",
+    "public_slug": "Pr12510",
+    "article_format": "pattern",
+    "primary_topic_tag": "security"
+  },
+  "regions": [
+    {
+      "id": "primary",
+      "label": "Primary Region",
+      "region": "",
+      "role": "primary",
+      "evidence": []
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "global",
+      "label": "Global Control Plane",
+      "kind": "global"
+    },
+    {
+      "id": "primary",
+      "label": "Primary Region",
+      "kind": "region"
+    }
+  ],
+  "components": [],
+  "edges": [],
+  "article_view": {
+    "layout": "LR",
+    "nodes": [
+      {
+        "id": "article_control",
+        "label": "Failover Control Plane\nControl Plane + Recovery Logic",
+        "boundary": "global",
+        "components": []
+      },
+      {
+        "id": "article_primary_app",
+        "label": "Primary App Tier\nApplication",
+        "boundary": "primary",
+        "components": []
+      }
+    ],
+    "edges": []
+  },
+  "evidence_summary": [],
+  "confidence_summary": {
+    "explicit_components": 0,
+    "inferred_components": 0,
+    "multi_region": false
+  }
+}
