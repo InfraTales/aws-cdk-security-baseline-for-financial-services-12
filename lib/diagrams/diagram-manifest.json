@@ -1,0 +1,27 @@
+{
+  "repo_key": "cdk-ts/Pr12510",
+  "public_slug": "Pr12510",
+  "architecture_model_path": "diagrams/architecture_model.json",
+  "diagrams": [
+    {
+      "id": "repo_architecture",
+      "role": "repo",
+      "status": "rendered",
+      "required": true,
+      "placement_key": "repo_docs",
+      "rendered_path": "diagrams/rendered/repo-architecture.png",
+      "caption": "Infrastructure map: Pr12510",
+      "type": "architecture"
+    },
+    {
+      "id": "article_architecture",
+      "role": "article",
+      "status": "rendered",
+      "required": true,
+      "placement_key": "architecture_overview",
+      "rendered_path": "diagrams/rendered/article-architecture.png",
+      "caption": "Architecture overview: Pr12510",
+      "type": "architecture"
+    }
+  ]
+}
